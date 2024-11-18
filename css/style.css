@@ -6,6 +6,8 @@ body {
 	-ms-user-select: none; /* IE10+ */
 	-o-user-select: none;
 	user-select: none;
+	background-image: url(bg.jpg);
+	background-size: cover;
 }
 
 h1 {
@@ -145,4 +147,9 @@ footer {
 	width: 540px;
 	clear: both;
 	text-align: center;
+	color: #fff;
+}
+footer a{
+	text-decoration: underline;
+	color: #fff;
 }
